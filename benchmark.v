@@ -14,7 +14,7 @@ mut x := 2
 runs++
 
 for i := 1; i < runs; i++ {
-	println("Starting run $i ...")
+	println("Starting run $i...")
 
 	for j := 0; j < 2000000000; j++ {
 		x = x * 2
